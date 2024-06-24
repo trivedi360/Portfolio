@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.2em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact form label {
+    margin: 0.5em 0 0.2em;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.contact form button {
+    padding: 0.7em;
+    background-color: #333333;
+    color: #fafafa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.app-form-group{
+    width: 90px;
+}
+
+.app-form-button{
+    background-color: #333333;
+    color: white;
+}
